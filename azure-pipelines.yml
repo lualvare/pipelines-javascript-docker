@@ -10,7 +10,7 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: '1314d245-0f4b-4728-94dc-69ba5b6e2f3c'
+  dockerRegistryServiceConnection: '5807e692-b793-40b7-8833-2393bc388002'
   imageRepository: 'lualvarepipelinesjavascriptdocker'
   containerRegistry: 'luisacr.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/app/Dockerfile'
